@@ -56,7 +56,7 @@ private fun App() {
                 Column(modifier = Modifier) {
                     messages.forEachIndexed { index, it ->
                         TGMessage(
-                            title = if (index == 0) "Покатаев Н.В." else null,
+                            title = if (index == 0) "Niapoll" else null,
                             text = it,
                             index = index,
                             size = messages.size
